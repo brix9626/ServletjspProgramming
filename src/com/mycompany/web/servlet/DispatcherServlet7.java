@@ -36,7 +36,7 @@ public class DispatcherServlet7 extends HttpServlet {
 		}
 		
 		//forward
-		RequestDispatcher rd = request.getRequestDispatcher("/dispatcher8.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("/dispatcher8");
 		rd.forward(request, response);
 		
 	}

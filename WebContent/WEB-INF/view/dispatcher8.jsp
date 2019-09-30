@@ -1,5 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
-<%@ page import="com.mycompany.web.dto.Counter" %>
+<%@ page import="com.mycompany.web.dto.Counter"%>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -12,13 +12,13 @@
 		<h4>Counter.java</h4>
 		
 		<%-- How1 --%>
-		<%Counter applicationCounter = (Counter)application.getAttribute("applicationCounter"); %>
+		<%Counter applicationCounter = (Counter)application.getAttribute("applicationCounter");%>
 		applicationCounter : <%=applicationCounter.getValue()%><br/> 
 		
-		<%Counter sessionCounter = (Counter)session.getAttribute("sessionCounter"); %>
+		<%Counter sessionCounter = (Counter)session.getAttribute("sessionCounter");%>
 		sessionCounter :<%=sessionCounter.getValue()%> <br/>
 		
-		<%Counter requestCounter = (Counter)request.getAttribute("requestCounter"); %>
+		<%Counter requestCounter = (Counter)request.getAttribute("requestCounter");%>
 		requestCounter :<%=requestCounter.getValue()%> <br/> <br/>
 		
 		

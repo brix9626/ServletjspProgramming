@@ -107,7 +107,7 @@
 <!-- DispatcherServlet7 설정 -->
 			
 		<servlet>
-			<servlet-name> dispatcher7	</servlet-name>
+			<servlet-name>dispatcher7</servlet-name>
 	  		<servlet-class>com.mycompany.web.servlet.DispatcherServlet7</servlet-class>
 	  	</servlet>	
 	
@@ -119,7 +119,7 @@
 <!-- DispatcherServlet8 설정 -->
 			
 		<servlet>
-			<servlet-name> dispatcher8	</servlet-name>
+			<servlet-name>dispatcher8</servlet-name>
 	  		<servlet-class>com.mycompany.web.servlet.DispatcherServlet8</servlet-class>
 	  	</servlet>	
 	
